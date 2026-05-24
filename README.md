@@ -102,23 +102,7 @@
   <div class="container">
     <h1>Weather App</h1>
 
-    <div class="search-box">
-      <input type="text" placeholder="Enter city name" id="cityInput">
-      <button onclick="getWeather()">Search</button>
-    </div>
-
-    <div class="error" id="error">
-      City not found
-    </div>
-
-    <div class="weather-box" id="weatherBox">
-      <img id="icon" src="" alt="">
-      <div class="temp" id="temp"></div>
-      <div class="city" id="city"></div>
-      <div class="description" id="description"></div>
-    </div>
-  </div>
-
+  
   <script>
     const apiKey = "627d76291e9edb6b6b47f18d61d8ea03";
 
